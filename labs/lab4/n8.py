@@ -13,7 +13,7 @@ try:
         discount = '10%'
     elif price > 10000:
         paiement = price - (price * 0.15)
-        discount = '15'
+        discount = '15%'
     print(' Ваша скидка:', discount, '\n', 'К оплате:', paiement)
     
 except ValueError:
