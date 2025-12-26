@@ -1,15 +1,16 @@
 try:
     
-    number = input('Введите число: ')
-    a, b, c = number.split(' ')
+    number = input('Введите три числа через пробел: ')
+    a, b, c = number.split()
 
     if a < b and a < c:
         min = a
     elif b < a and b < c:
         min = b
-    elif c < a and c < b:
+    else:
+        c < a and c < b
         min = c
-    print(min)
+    print(f"Минимальное число: {min}")
     
 except ValueError:
     print("Ошибка: введите число!")

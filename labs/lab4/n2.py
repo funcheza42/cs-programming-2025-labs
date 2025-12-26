@@ -11,7 +11,7 @@ try:
     elif month == 9 or month == 10 or month == 11:
         print("Это осень")
     else:
-        print("Месяцев всего 12!")
+        print("Некорректный ввод, месяцев всего 12!")
         
 except ValueError:
     print("Просили число ввести!")

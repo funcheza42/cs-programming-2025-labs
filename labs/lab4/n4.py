@@ -1,4 +1,5 @@
-number = input("Ввкдите число: ")
+number = input("Введите число: ")
+
 last = int(number[-1])
 
 if last % 2 == 0 and int(number) % 3 == 0:

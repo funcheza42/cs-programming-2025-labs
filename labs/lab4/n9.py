@@ -11,7 +11,7 @@ try:
     elif 18 <= hour <= 23:
         time = "вечер"
     else:
-        time = "Некорректный ввод"
+        print("Некорректный ввод")
     print("Cейчас", time)
     
 except ValueError:
