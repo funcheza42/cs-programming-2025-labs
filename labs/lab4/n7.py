@@ -1,7 +1,7 @@
 try:
     
     number = input('Введите три числа через пробел: ')
-    a, b, c = number.split()
+    a, b, c = map(int, number.split())
 
     if a < b and a < c:
         min = a
