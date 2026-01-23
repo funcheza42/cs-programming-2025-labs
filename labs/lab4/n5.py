@@ -20,4 +20,8 @@ if errors:
     print("Пароль ненадежный:", ', '.join(errors))
 else:
     print("Пароль надежный!")
-
+    
+    
+    
+    
+    
