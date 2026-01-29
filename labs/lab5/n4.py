@@ -12,3 +12,4 @@ if all_numbers:
     print(tuple(sorted(typl)))
 else:
     print(typl)
+    
